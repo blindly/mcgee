@@ -1,0 +1,13 @@
+%h2
+	Subscribe to the monthly newsletter
+%p
+	Be the first to know about the latest releases
+
+%form#mc-embedded-subscribe-form.validate{:action => "https://robertwmcgee.us11.list-manage.com/subscribe/post?u=2d7d1b1c718e52c114123e0e2&amp;id=364964b7fd",
+:method => "post", :name => "mc-embedded-subscribe-form", :target => "_blank", :novalidate => ""}
+	.row.uniform
+		.8u.12u(mobilep)
+			%input#mce-EMAIL{:type => "email", :name => "EMAIL", :placeholder => "Enter Your Email Address", :required => "required" }
+			%input{:type => "hidden", :name => "b_2d7d1b1c718e52c114123e0e2_364964b7fd", :tabindex => "-1", :value => ""}
+		.4u.12u(mobilep)
+			%input.fit{:type => "submit", :value => "Subscribe"}

@@ -1,0 +1,38 @@
+-# Project: Robert W McGee
+-# Domain: robertwmcgee.com
+
+-# Variable Definitions
+- title = "Home | Amazon bestselling author Robert W. McGee"
+- description = "Robert W. McGee is the Amazon Best Selling Author of political thrillers including Justifiable Homicide, Iraqi Girl, TSA vs the People, and Annie and the Senator"
+- keywords = "justifiable, homicide, justifiable homicide, annie, senator, annie and the senator, tsa, people, tsa vs the people, iraqi, girl, iraqi girl, robert, mcgee, robert mcgee, robert w mcgee"
+
+!!! 5
+%html{:lang => "en"}
+	-# Head
+
+	%head
+		= Haml::Engine.new(File.read('includes/header.haml')).render(Object.new, :title => title, :description => description, :keywords => keywords)
+
+	-# Body
+	%body.landing
+		#page-wrapper
+
+			// Header
+			%header#header.alt
+				= Haml::Engine.new(File.read('includes/menu.haml')).render
+
+			// Banner
+			%section#banner
+				= Haml::Engine.new(File.read('includes/banner.haml')).render
+
+			// Main
+			%section#main.container
+				= Haml::Engine.new(File.read('includes/recent.haml')).render
+
+			// Newsletter
+			%section#cta
+				= Haml::Engine.new(File.read('includes/newsletter.haml')).render
+
+			// Footer
+			%footer#footer
+				= Haml::Engine.new(File.read('includes/footer.haml')).render

@@ -1,0 +1,34 @@
+-# Project: Robert W McGee
+-# Domain: robertwmcgee.com
+
+-# Variable Definitions
+- title = "Annie and the Senator: A Story of Vigilante Justice | by Amazon bestseller Robert W. McGee"
+- description = "Robert W. McGee is the Amazon Best Selling Author of political thrillers including Justifiable Homicide, Iraqi Girl, TSA vs the People, and Annie and the Senator"
+- keywords = "justifiable, homicide, justifiable homicide, annie, senator, annie and the senator, tsa, people, tsa vs the people, iraqi, girl, iraqi girl, robert, mcgee, robert mcgee, robert w mcgee"
+
+
+!!! 5
+%html{:lang => "en"}
+	-# Head
+	%head
+		= Haml::Engine.new(File.read('includes/header.haml')).render(Object.new, :title => title, :description => description, :keywords => keywords)
+
+	-# Body
+	%body
+		#page-wrapper
+
+			// Header
+			%header#header
+				= Haml::Engine.new(File.read('includes/menu.haml')).render
+
+			// Main
+			%section#main.container{:class => "75%"}
+				= Haml::Engine.new(File.read('includes/connect.haml')).render
+
+			// Newsletter
+			%section#cta
+				= Haml::Engine.new(File.read('includes/newsletter.haml')).render
+
+			// Footer
+			%footer#footer
+				= Haml::Engine.new(File.read('includes/footer.haml')).render
