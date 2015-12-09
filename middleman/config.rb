@@ -1,6 +1,11 @@
+
+set :site_title, "Robert W McGee"
+set :site_url, "http://www.robertwmcgee.com"
+
 ###
 # Compass
 ###
+
 
 # Change Compass configuration
 # compass_config do |config|
@@ -10,6 +15,8 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+
+page "/sitemap.xml", :layout => false
 
 # Per-page layout changes:
 #
@@ -23,8 +30,6 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
-
-page "/sitemap.xml", :layout => false
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -64,7 +69,7 @@ configure :build do
   activate :minify_javascript
 
   # Sitemap
-  activate :sitemap
+  #activate :sitemap
 
   # Enable cache buster
   # activate :asset_hash
