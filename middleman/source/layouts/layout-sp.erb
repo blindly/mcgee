@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+    <title><%= current_page.data.title || "Autor Robert W McGee" %></title>
+
+    <meta content='Robert W. McGee es el autor de of novelas politicas como Homicidio Justificado, Nina de Iraq, TSA contra el Pueblo, and Annie y el Senador' name='description'>
+    <meta content='index,follow' name='robots'>
+    <meta content='homicidio justificado, annie, senador, annie y el senador, tsa contra el pueblo, iraqi, girl, iraqi girl, robert, mcgee, robert mcgee, robert w mcgee' name='keywords'>
+    <meta content='es' http-equiv='content-language'>
+    <meta charset='utf-8'>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <%= javascript_include_tag  "jquery.min", "skel.min", "skel-layers.min", "init", "lity.min", "analytics"  %>
+		<noscript>
+      <%= stylesheet_link_tag "skel", "style", "style-xlarge" %>
+		</noscript>
+	</head>
+	<body class="landing">
+    <%= yield %>
+	</body>
+</html>

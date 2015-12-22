@@ -54,11 +54,11 @@ end
 #   end
 # end
 
-set :css_dir, 'css'
+set :css_dir, 'media/assets/css'
 
-set :js_dir, 'js'
+set :js_dir, 'media/assets/js'
 
-set :images_dir, 'images'
+set :images_dir, 'media/assets/images'
 
 # Build-specific configuration
 configure :build do
