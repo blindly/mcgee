@@ -47,6 +47,9 @@ configure :development do
    activate :livereload
 end
 
+# Adding meta-tags
+activate :meta_tags
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

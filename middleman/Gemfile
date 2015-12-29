@@ -16,5 +16,8 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 # Sitemap
 gem "middleman-sitemap"
 
+# Meta-tags
+gem "middleman-meta-tags"
+
 # Builder
 gem 'builder'

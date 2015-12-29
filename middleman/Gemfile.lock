@@ -37,6 +37,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.8)
     execjs (2.6.0)
+    ffi (1.9.10)
     ffi (1.9.10-x64-mingw32)
     haml (4.0.7)
       tilt
@@ -50,18 +51,18 @@ GEM
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    middleman (3.4.0)
+    middleman (3.4.1)
       coffee-script (~> 2.2)
       compass (>= 1.0.0, < 2.0.0)
       compass-import-once (= 1.0.5)
       execjs (~> 2.0)
       haml (>= 4.0.5)
       kramdown (~> 1.2)
-      middleman-core (= 3.4.0)
+      middleman-core (= 3.4.1)
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
-    middleman-core (3.4.0)
+    middleman-core (3.4.1)
       activesupport (~> 4.1)
       bundler (~> 1.1)
       capybara (~> 2.4.4)
@@ -78,6 +79,8 @@ GEM
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
+    middleman-meta-tags (0.1.3)
+      middleman-core (>= 3.0.0)
     middleman-sitemap (0.0.13)
       middleman-core (>= 3.2.2)
     middleman-sprockets (3.4.2)
@@ -91,7 +94,9 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
-    nokogiri (1.6.7-x64-mingw32)
+    nokogiri (1.6.7.1)
+      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.7.1-x64-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
     padrino-helpers (0.12.5)
       i18n (~> 0.6, >= 0.6.7)
@@ -104,10 +109,10 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rb-fsevent (0.9.6)
+    rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    sass (3.4.19)
+    sass (3.4.20)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -131,12 +136,14 @@ GEM
       nokogiri (~> 1.3)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   builder
   middleman (~> 3.4.0)
   middleman-livereload (~> 3.1.0)
+  middleman-meta-tags
   middleman-sitemap
   tzinfo-data
   wdm (~> 0.1.0)
