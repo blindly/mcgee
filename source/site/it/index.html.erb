@@ -1,0 +1,53 @@
+---
+title: Robert W. McGee | Romancier
+layout: generic-sp
+
+books:
+  - title: Omicidio Giustificato 
+    link: http://www.amazon.com/dp/B016X8AW7I
+    cover: /media/assets/img/works/jh/cover-it.jpg
+  - title: Annie e il Senatore - Una storia di giustizia private
+    link: http://www.amazon.com/dp/B016YPGKNA
+    cover: /media/assets/img/works/as/cover-it.jpg
+  - title: La TSA contro il popolo
+    link: http://www.amazon.com/dp/B016YPGRLU
+    cover: /media/assets/img/works/tsa/cover-it.jpg
+
+heading_title: Letteratura di
+---
+
+<%= partial "includes/header-generic" %>
+
+<!-- Main -->
+<section id="main" class="wrapper">
+  <div class="container">
+
+    <header class="major special">
+      <h2><%= current_page.data.heading_title %></h2>
+      <p>Robert W. McGee</p>
+    </header>
+
+
+    <!-- Image -->
+      <section>
+        <div class="box alt">
+          <div class="row 50% uniform">
+            
+            <% current_page.data.books.each do | book | %>
+              <div class="4u">
+                <a href="<%= book.link %>">
+                  <span class="image fit"><img src="<%= book.cover %>" alt="<%= book.title %>" /></span>
+                </a>
+              </div>
+            <% end %>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+</section>
+
+<%= partial "includes/footer" %>
