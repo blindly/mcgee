@@ -1,16 +1,16 @@
 ---
 title: Robert W. McGee | Romancier
-layout: generic-sp
+layout: generic-es
 
 books:
   - title: Homicidio Justificado
-    link: http://www.amazon.com/dp/B016XDAQME
+    link: content/books/justifiable-homicide.html
     cover: /media/assets/img/works/jh/cover-es.jpg
   - title: Annie y el Senador
-    link: http://www.amazon.com/dp/B019L9MR3S
+    link: content/books/annie-and-the-senator.html
     cover: /media/assets/img/works/as/cover-es.jpg
-  - title: TSA Contra el Pueblo 
-    link: http://www.amazon.com/dp/B0175VU4FW
+  - title: TSA Contra el Pueblo
+    link: content/books/tsa-vs-the-people.html
     cover: /media/assets/img/works/tsa/cover-es.jpg
 
 heading_title: Literatura por
@@ -32,7 +32,7 @@ heading_title: Literatura por
       <section>
         <div class="box alt">
           <div class="row 50% uniform">
-            
+
             <% current_page.data.books.each do | book | %>
               <div class="4u">
                 <a href="<%= book.link %>">
