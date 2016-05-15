@@ -6,18 +6,18 @@
 -->
 <html>
 	<head>
-    <title><%= current_page.data.title || "Amazon Best Selling Author Robert W McGee" %></title>
+    <title><%= current_page.data.title || "Robert W McGee" %></title>
 
-    <meta content='Robert W. McGee is the Amazon Best Selling Author of political thrillers including Justifiable Homicide, Iraqi Girl, TSA vs the People, and Annie and the Senator' name='description'>
+    <meta content='<%= current_page.data.description %>' name='description'>
     <meta content='index,follow' name='robots'>
-    <meta content='justifiable, homicide, justifiable homicide, annie, senator, annie and the senator, tsa, people, tsa vs the people, iraqi, girl, iraqi girl, robert, mcgee, robert mcgee, robert w mcgee' name='keywords'>
-    <meta content='en-us' http-equiv='content-language'>
+    <meta content='<%= current_page.data.keywords %>' name='keywords'>
+    <meta content='<%= current_page.data.language || "en" %>' http-equiv='content-language'>
     <meta charset='utf-8'>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     <%= javascript_include_tag  "jquery.min", "skel.min", "skel-layers.min", "init", "lity.min", "analytics"  %>
-    <%= stylesheet_link_tag "skel", "style", "style-xlarge", "lity.min" %>
+    <%= stylesheet_link_tag "skel", "style", "style-xlarge" %>
 
 	</head>
 	<body>

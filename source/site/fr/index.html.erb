@@ -1,22 +1,26 @@
 ---
+layout: generic
+
 title: Robert W. McGee | Romancier
-layout: generic-sp
+description:
+keywords:
+language: fr
 
 books:
   - title: Homicide Justifiable
-    link: http://www.amazon.com/dp/B018C7U32M
+    link: content/books/justifiable-homicide.html
     cover: /media/assets/img/works/jh/cover-fr.jpg
   - title: Annie et le Senateur - Une histoire de justice du justicier
-    link: http://www.amazon.com/dp/B01BUEPGYY
+    link: http://a-fwd.com/asin=B01BUEPGYY
     cover: /media/assets/img/works/as/cover-fr.jpg
-  - title: La TSA contre le peuple - Récit d’une vengeance 
-    link: http://www.amazon.com/dp/B0188GPGC4
+  - title: La TSA contre le peuple - Récit d’une vengeance
+    link: content/books/tsa-vs-the-people.html
     cover: /media/assets/img/works/tsa/cover-fr.jpg
 
 heading_title: Littérature par
 ---
 
-<%= partial "includes/header-generic" %>
+<%= partial "content/includes/header-generic" %>
 
 <!-- Main -->
 <section id="main" class="wrapper">
@@ -32,7 +36,7 @@ heading_title: Littérature par
       <section>
         <div class="box alt">
           <div class="row 50% uniform">
-            
+
             <% current_page.data.books.each do | book | %>
               <div class="4u">
                 <a href="<%= book.link %>">
@@ -50,4 +54,4 @@ heading_title: Littérature par
   </div>
 </section>
 
-<%= partial "includes/footer" %>
+<%= partial "content/includes/footer" %>
