@@ -1,0 +1,49 @@
+---
+layout: generic-fr
+---
+
+<!-- Main -->
+<section id="main" class="wrapper">
+	<div class="container">
+
+		<header class="major special">
+
+      <h2><%= current_page.data.heading %></h2>
+			<p><%= current_page.data.subheading %></p>
+
+		</header>
+
+    <p>
+
+    <span class="image left"><img src="<%= current_page.data.cover %>" /></span>
+
+      <h3>Carnet de bord</h3>
+
+      <p><%= current_page.data.intro_one %></p>
+      <p><%= current_page.data.intro_two %></p>
+      <p><%= current_page.data.intro_three %></p>
+
+      <script src="<%= current_page.data.goodreads %>" type="text/javascript"></script>
+
+    <hr>
+
+    <div class='row'>
+      <center>
+        <ul class='actions'>
+
+          <% if current_page.data.buttons %>
+            <% current_page.data.buttons.each do | button | %>
+              <li>
+                <a class='<%= button.css %>' href='<%= button.link %>'>
+                  <%= button.title %>
+                </a>
+              </li>
+            <% end %>
+          <% end %>
+
+        </ul>
+      </center>
+    </div>
+
+	</div>
+</section>
