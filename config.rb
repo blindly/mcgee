@@ -83,3 +83,7 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+# Redirects
+redirect "site/english/content/preview/just-following-orders", to: "site/en/content/preview/just-following-orders.html"
+redirect "site/english", to: "site/en"

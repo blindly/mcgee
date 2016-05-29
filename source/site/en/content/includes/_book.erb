@@ -4,46 +4,44 @@ layout: generic
 
 <!-- Main -->
 <section id="main" class="wrapper">
-	<div class="container">
+    <div class="container">
 
-		<header class="major special">
+        <header class="major special">
 
-      <h2><%= current_page.data.heading %></h2>
-			<p><%= current_page.data.subheading %></p>
+            <h2><%= current_page.data.heading %></h2>
+            <p><%= current_page.data.subheading %></p>
 
-		</header>
+        </header>
 
-    <p>
+        <span class="image left"><img src="<%= current_page.data.cover %>" /></span>
 
-    <span class="image left"><img src="<%= current_page.data.cover %>" /></span>
+        <h3>Synopsis</h3>
 
-      <h3>Synopsis</h3>
+        <p><%= current_page.data.intro_one %></p>
+        <p><%= current_page.data.intro_two %></p>
+        <p><%= current_page.data.intro_three %></p>
 
-      <p><%= current_page.data.intro_one %></p>
-      <p><%= current_page.data.intro_two %></p>
-      <p><%= current_page.data.intro_three %></p>
+        <script src="<%= current_page.data.goodreads %>" type="text/javascript"></script>
 
-      <script src="<%= current_page.data.goodreads %>" type="text/javascript"></script>
+        <hr>
 
-    <hr>
+        <div class='row'>
+            <center>
+                <ul class='actions'>
 
-    <div class='row'>
-      <center>
-        <ul class='actions'>
+                    <% if current_page.data.buttons %>
+                    <% current_page.data.buttons.each do | button | %>
+                    <li>
+                        <a class='<%= button.css %>' href='<%= button.link %>'>
+                            <%= button.title %>
+                        </a>
+                    </li>
+                    <% end %>
+                    <% end %>
 
-          <% if current_page.data.buttons %>
-            <% current_page.data.buttons.each do | button | %>
-              <li>
-                <a class='<%= button.css %>' href='<%= button.link %>'>
-                  <%= button.title %>
-                </a>
-              </li>
-            <% end %>
-          <% end %>
+                </ul>
+            </center>
+        </div>
 
-        </ul>
-      </center>
     </div>
-
-	</div>
 </section>
