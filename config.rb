@@ -86,4 +86,4 @@ end
 
 # Redirects
 redirect "site/english/content/preview/just-following-orders", to: "site/en/content/preview/just-following-orders.html"
-redirect "site/english", to: "site/en"
+redirect "site/english/index.html", to: "site/en/index.html"
