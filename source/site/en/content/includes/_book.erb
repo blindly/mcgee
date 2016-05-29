@@ -30,13 +30,13 @@ layout: generic
                 <ul class='actions'>
 
                     <% if current_page.data.buttons %>
-                    <% current_page.data.buttons.each do | button | %>
-                    <li>
-                        <a class='<%= button.css %>' href='<%= button.link %>'>
-                            <%= button.title %>
-                        </a>
-                    </li>
-                    <% end %>
+                        <% current_page.data.buttons.each do | button | %>
+                        <li>
+                            <a class='<%= button.css %>' href='<%= button.link %>'>
+                                <%= button.title %>
+                            </a>
+                        </li>
+                        <% end %>
                     <% end %>
 
                 </ul>
