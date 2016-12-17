@@ -1,0 +1,9 @@
+section#tiles.tiles
+  each tile in public.site.en._data.index.tiles
+    article
+      span.image
+        img(src="#{ tile.image }")
+      header.major
+        h3
+          a.link(href="#{ tile.link }")=  tile.title
+        p= tile.subtitle
