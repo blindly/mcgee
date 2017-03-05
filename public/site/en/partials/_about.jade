@@ -8,14 +8,31 @@ section#one
     span.image.left
       img(src="/assets/images/mcgee.jpg" alt="#{ heading }")
 
-    p Robert W. McGee is an <a href="http://www.amazon.com/Robert-W.-McGee/e/B000APKK1O">Amazon bestselling author</a> who writes political fiction from an individualist perspective. His favorite writers of political fiction include <a href="https://www.aynrand.org">Ayn Rand</a> ( <a href="https://www.aynrand.org/novels/atlas-shrugged">Atlas Shrugged</a>; <a href="https://www.aynrand.org/novels/the-fountainhead">The Fountainhead</a> ), <a href="https://en.wikipedia.org/wiki/Aldous_Huxley">Aldous Huxley</a> ( <a href="http://huxley.net">Brave New World</a> ) and <a href="http://www.george-orwell.org/l_biography.html">George Orwell</a> ( <a href="http://www.george-orwell.org/1984/index.html">1984</a>; <a href="http://www.george-orwell.org/Animal_Farm/index.html">Animal Farm</a>).
+    p Robert W. McGee is an <a href="http://www.amazon.com/Robert-W.-McGee/e/B000APKK1O">Amazon bestselling author</a> who writes political fiction from an individualist perspective. His favorite writers of political fiction include <a href="https://www.aynrand.org">Ayn Rand</a> (<a href="https://www.aynrand.org/novels/atlas-shrugged">Atlas Shrugged</a>; <a href="https://www.aynrand.org/novels/the-fountainhead">The Fountainhead</a>), <a href="https://en.wikipedia.org/wiki/Aldous_Huxley">Aldous Huxley</a> (<a href="http://huxley.net">Brave New World</a>) and <a href="http://www.george-orwell.org/l_biography.html">George Orwell</a> (<a href="http://www.george-orwell.org/1984/index.html">1984</a>; <a href="http://www.george-orwell.org/Animal_Farm/index.html">Animal Farm</a>).
     
     p Before becoming a novelist, he was a professor, attorney, CPA and consultant. He also published <a href="http://www.amazon.com/Robert-W.-McGee/e/B000APKK1O">58 nonfiction books</a> and lectured or worked in more than 30 countries. Former clients include <a href="https://www.usaid.gov/">United States Agency for International Development</a>, <a href="http://www.worldbank.org/">World Bank</a>, <a href="http://www.afdb.org/en/">African Development Bank</a> and <a href="https://www.cia.gov/index.html">Central Intelligence Agency</a>. He holds 13 earned doctorates from universities in the United States and four European countries.
     
     p He has won 22 gold medals in Taekwondo National Championship tournaments, 6 first place trophies in Karate National Championship tournaments, as well as 4 silver and 2 bronze medals in World Championships.
 
-    p His latest fiction novels include:
-        ul
-            each tile in public.site.en._data.index.tiles
-                li
-                    a.link(href="#{ tile.link }")=  tile.title
+    br 
+
+    p His latest novels include:
+    ul
+        each tile in public.site.en._data.index.tiles
+            li
+                a.link(href="#{ tile.link }")=  tile.title
+
+    p Have questions or comments?
+    
+    form(name="contact" netlify netlify-honeypot="bot-field")
+    p
+      label(for="email") Email 
+        input.email(type="email" name="email" required)
+    p.hidden
+      label(for="bot-field")
+        input.bot-field(type="text" name="bot-field")
+    p 
+      label(for="message") Message
+        textarea.message(name="message", cols="30", rows="5" required)
+    p 
+      button Send

@@ -1,0 +1,19 @@
+section#two
+  div.inner
+    center
+      header.major
+        h1 Contact Robert W. McGee
+        h2 Talk to the Novelist
+
+    form(name="contact" netlify netlify-honeypot="bot-field")
+      p
+        label(for="email") Email 
+          input.email(type="email" name="email" required)
+      p.hidden
+        label(for="bot-field")
+          input.bot-field(type="text" name="bot-field")
+      p 
+        label(for="message") Message
+          textarea.message(name="message", cols="30", rows="10" required)
+      p 
+        button Send

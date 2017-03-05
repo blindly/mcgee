@@ -22,6 +22,11 @@
 		display: block;
 	}
 
+  .hidden {
+    visibility: hidden;
+    display: none;
+  }
+
 	body {
 		line-height: 1;
 	}
