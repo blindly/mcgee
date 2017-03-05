@@ -25,14 +25,14 @@ section#one
     p Have questions or comments?
     
     form(name="contact" netlify netlify-honeypot="bot-field")
-    p
-      label(for="email") Email 
-        input.email(type="email" name="email" required)
-    p.hidden
-      label(for="bot-field")
-        input.bot-field(type="text" name="bot-field")
-    p 
-      label(for="message") Message
-        textarea.message(name="message", cols="30", rows="5" required)
-    p 
-      button Send
+      p
+        label(for="email") Email 
+          input.email(type="email" name="email" required)
+      p.hidden
+        label(for="bot-field")
+          input.bot-field(type="text" name="bot-field")
+      p 
+        label(for="message") Message
+          textarea.message(name="message", cols="30", rows="5" required)
+      p 
+        button Send
