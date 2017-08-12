@@ -2,9 +2,9 @@
 != partial("../../partials/_menu")
 
 div#main
-  != partial("../../partials/_book")
-  != partial("../../partials/_footer")
+  include ../../partials/_book
+  include ../../partials/_footer
 
-!= partial("../../partials/_scripts")
+include ../../partials/_scripts
 
 include ../../partials/schema/_justifiable_homicide.html
