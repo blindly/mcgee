@@ -1,11 +1,11 @@
 != partial("partials/_header")
 != partial("partials/_menu")
 
-div#main
-  != partial("partials/_about")
+div#main  
+  include partials/_about
 
-  != partial("partials/_footer")
+  include partials/_footer
+  
+  include partials/_scripts
 
-!= partial("partials/_scripts")
-
-include partials/schema/_author.html
+  include partials/schema/_author.html
