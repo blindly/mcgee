@@ -80,40 +80,17 @@
      }]
    },
 
-   "the-iraqi-girl": {
-     "title": "The Iraqi Girl | By Robert W. McGee",
-     "description": "",
-     "language": "en",
-     "heading": "The Iraqi Girl",
-     "subheading": "Trilogy Book 1",
-     "short": "ig1",
-     "label": "Prologo",
-     "intro_one": "The Iraqi Girl, volume one of The Iraqi Girl Trilogy, introduces readers to Massouma Qassim Ibrahim, who is sexually abused by U.S. soldiers at the age of five.",
-     "intro_two": "This volume questions the morality of enhanced interrogation, highlights the disgusting practice of female genital mutilation in a graphic way.",
-     "intro_three": "It sets the stage for revenge and the vigilante justice that are to follow in volumes 2 and 3 of The Iraqi Girl Trilogy.",
-     "goodreads": "28256553",
-     "buttons": [{
-       "title": "compra ahora",
-       "css": "button icon alt fa-amazon",
-       "link": "http://a-fwd.com/asin=B0188LDU5O"
-     }, {
-       "title": "ve mas libros",
-       "css": "button",
-       "link": "/site/es/#tiles"
-     }]
-   },
-
    "tsa-vs-the-people": {
-     "title": "The TSA vs the People | By Robert W. McGee",
-     "description": "The TSA vs. the People, by Robert W McGee. The TSA and its Gestapo tactics ruin James Young’s life. He decides to ruin some of their lives.",
-     "language": "en",
-     "heading": "The TSA vs the People",
-     "subheading": "A Short Story of Vengeance",
+     "title": "El TSA contra el Pueblo - Una Historia de Venganza | Por Robert W. McGee",
+     "description": "El TSA contra el Pueblo - Una Historia de Venganza | Por Robert W. McGee. El TSA y sus tacticas aruinan la vida de James Young. El decide devolver el favor.",
+     "language": "es",
+     "heading": "El TSA contra el Pueblo",
+     "subheading": "Una Historia de Venganza",
      "short": "tsa",
      "label": "Prologo",
-     "intro_one": "What would YOU do if the TSA sexually assaulted YOUR mother? If you’re a red-blooded American, you’d do the same thing James Young did. What did James Young do? You’ll have to read the story.",
-     "intro_two": "This book really highlights the effects that governmental abuse of power and paranoia can do to individual lives. In this short novel James Young decides that he has had enough and decides to do something about it.",
-     "intro_three": "The legal system has failed him. The solution is vigilante justice.",
+     "intro_one": "¿Qué harías si la TSA agrediese sexualmente a tu madre? Si eres un ferviente ciudadano, harías lo mismo que hizo James Young. ¿Quieres saber qué hizo? Tendrás que leer la historia completa.",
+     "intro_two": "Este libro realmente demuestra cómo el abuso de poder del gobierno y la paranoia pueden perjudicar la vida de los ciudadanos. En esta breve historia, James Young decide que ha tenido suficiente y se propone hacer algo al respecto. El sistema jurídico le ha fallado. La solución es hacer justicia por su propia mano.",
+     "intro_three": "Esta historia es una precuela de Homicidio Justificado - Un thriller político.",
      "goodreads": "23593945",
      "buttons": [{
        "title": "echa un vistaso",
@@ -122,7 +99,7 @@
      }, {
        "title": "compra ahora",
        "css": "button icon alt fa-amazon",
-       "link": "http://a-fwd.com/asin=B00OJN20YI"
+       "link": "http://a-fwd.com/asin=B0175VU4FW"
      }, {
        "title": "ve mas libros",
        "css": "button",
