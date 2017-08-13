@@ -53,33 +53,6 @@
      }]
    },
 
-   "just-following-orders": {
-     "title": "Just Following Orders | By Robert W. McGee",
-     "description": "",
-     "language": "en",
-     "heading": "Just Following Orders",
-     "subheading": "Iraqi Girl Trilogy Book 2",
-     "short": "ig2",
-     "label": "Prologo",
-     "intro_one": "The second volume in the Trilogy – Just Following Orders – places readers in the mind of one of the soldiers who is ordered to participate in Massouma’s abuse.",
-     "intro_two": "Although he is disgusted by what his lieutenant orders his men to do, and while he seriously considers killing the lieutenant to stop the abuse going on before his eyes, he obeys, because he has been taught not to question orders.",
-     "intro_three": "This volume highlights the disgusting practice of female genital mutilation in a graphic way, challenges the morality of enhanced interrogation, and questions the view that there is a duty to obey all orders. This novelette sets the stage for volume 3 of the Trilogy.",
-     "goodreads": "28263048",
-     "buttons": [{
-       "title": "echa un vistaso",
-       "css": "button",
-       "link": "../preview/just-following-orders"
-     }, {
-       "title": "compra ahora",
-       "css": "button icon alt fa-amazon",
-       "link": "http://a-fwd.com/asin=B0188M7EGY"
-     }, {
-       "title": "ve mas libros",
-       "css": "button",
-       "link": "/site/es/#tiles"
-     }]
-   },
-
    "tsa-vs-the-people": {
      "title": "El TSA contra el Pueblo - Una Historia de Venganza | Por Robert W. McGee",
      "description": "El TSA contra el Pueblo - Una Historia de Venganza | Por Robert W. McGee. El TSA y sus tacticas aruinan la vida de James Young. El decide devolver el favor.",
