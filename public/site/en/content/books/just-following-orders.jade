@@ -1,8 +1,8 @@
-!= partial("../../partials/_header")
-!= partial("../../partials/_menu")
+include ../../partials/_header
+include ../../partials/_menu
 
 div#main
-  != partial("../../partials/_book")
-  != partial("../../partials/_footer")
+  include ../../partials/_book
+  include ../../partials/_footer
 
-!= partial("../../partials/_scripts")
+include ../../partials/_scripts

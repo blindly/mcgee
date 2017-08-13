@@ -1,14 +1,16 @@
-!= partial("partials/_header")
-!= partial("partials/_menu")
-!= partial("partials/_banner")
+include partials/_header
+include partials/_menu
+include partials/_banner
 
 div#main
-  != partial("partials/_tiles")
-  != partial("partials/_media")
+  include partials/_tiles
+  include partials/_media
 
-  != partial("partials/_contact")
+  include partials/_contact
 
-  != partial("partials/_footer")
+  include partials/_footer
 
-!= partial("partials/_scripts")
-!= partial("partials/_carousel")
+include partials/_scripts
+include partials/_carousel
+
+include partials/schema/_author.html

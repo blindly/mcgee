@@ -1,11 +1,11 @@
-!= partial("/site/en/partials/_header")
-!= partial("/site/en/partials/_menu")
-!= partial("/site/en/partials/_banner")
+include /site/en/partials/_header
+include /site/en/partials/_menu
+include /site/en/partials/_banner
 
 div#main
-  != partial("/site/en/partials/_tiles")
-  != partial("/site/en/partials/_media")
-  != partial("/site/en/partials/_footer")
+  include /site/en/partials/_tiles
+  include /site/en/partials/_media
+  include /site/en/partials/_footer
 
-!= partial("/site/en/partials/_scripts")
-!= partial("/site/en/partials/_carousel")
+include /site/en/partials/_scripts
+include /site/en/partials/_carousel
