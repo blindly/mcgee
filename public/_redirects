@@ -1,5 +1,4 @@
 # This is a redirects file configured to work with Netlify
 # See more at https://www.netlify.com/docs/redirects
 
-/todo                   http://google.com
-/                       /site/en/index.html
+/                       /site/en    200
