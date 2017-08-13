@@ -2,4 +2,4 @@
 # See more at https://www.netlify.com/docs/redirects
 
 /todo                   http://google.com
-/                       /site/en
+/                       /site/en/index.html
