@@ -10,7 +10,7 @@ mixin tree(head, tail)
             - file = file.replace(replace, "");
             url
               loc #{site_url}#{ tail + file }
-              changefreq #{sitemap.changefreq}
+              changefreq weekly
       else
         mixin tree(val, tail + key + "/")
 
