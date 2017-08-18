@@ -13,13 +13,10 @@ mixin tree(head, tail)
               url
                 loc http://www.robertwmcgee.com#{ tail + file }
                 changefreq weekly
-                priority 100
             else
               url
                 loc http://www.robertwmcgee.com#{ tail + file }
                 changefreq weekly
-                priority= (100 - ((depth - 1) * 7))
-
 
       else
         mixin tree(val, tail + key + "/")
