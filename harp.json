@@ -1,0 +1,11 @@
+{
+    "domains": [""],
+    "globals": {
+      "site_title": "Robert W McGee - Official",
+      "site_url": "http://www.robertwmcgee.com",
+      "sitemap": {
+        "enabled": true,
+        "changefreq": "weekly"
+      }
+    }
+  }
