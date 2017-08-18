@@ -1,45 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><%
-var filter = /(\.html$)/; 
-var replace = /(\.html$)|(^index\.html$)/; 
+- var filter = /(\.html$)/;
+- var replace = /(\.html$)|(^index\.html$)/;
 
-function tree(head, tail) {
-      for (key in head) { 
-        val = head[key]; 
-        if (key !== '.git' && key !== '_data') { 
-              if (key == '_contents') { 
-                for (i in val) { 
-                      file = val[i]
-                      if (filter.test(file) && !/^404\.html/.test(file)) { 
-                        file = file.replace(replace, ""); 
-                        date = null
-                        freq = "daily"
-                        if(head['_data']){
-                               obj = head['_data'][file]
-                               if(obj && obj.date){
-                                   date = new Date(Date.parse(obj.date)).toISOString()
-                               }
-                               if(obj && obj.freq){
-                                   freq = obj.freq
-                               }
-                        }
-                        if(!date){
-                            date = new Date().toISOString()
-                        }
-%><url>
-    <loc>http://wwww.robertwmcgee.com<%= tail + file %></loc>
-    <changefreq><%= freq %></changefreq>
-    <lastmod><%= date %></lastmod>
-</url>
-<%
-                   }
-                }
-              } else { 
-                tree(val, tail + key + "/")
-            }
-        }
-    }
-}
+mixin tree(head, tail)
+  for val, key in head
+    if key !== '.git' && key !== '_data'
+      if key == '_contents'
+        each file in val
+          if filter.test(file) && !/^404\.html/.test(file)
+            - file = file.replace(replace, "");
+            url
+              loc #{site_url}#{ tail + file }
+              changefreq #{sitemap.changefreq}
+      else
+        mixin tree(val, tail + key + "/")
 
-tree(public, "/") 
-%></urlset> 
+doctype xml
+urlset(xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd")
+  mixin tree(public, "/")
