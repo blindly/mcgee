@@ -1,9 +1,14 @@
  {
    "index": {
      "tiles": [{
+       "title": "Meet the Novelist",
+       "subtitle": "Robert W. McGee",
+       "image": "/assets/images/mcgee-2.jpg",
+       "link": "/site/en/about"
+     }, {
        "title": "Justifiable Homicide",
        "subtitle": "A Political Thriller",
-       "image": "/images/pic01.jpg",
+       "image": "/assets/books/jh/tile-en.png",
        "link": "/site/en/content/books/justifiable-homicide"
      }, {
        "title": "Annie and The Senator",
