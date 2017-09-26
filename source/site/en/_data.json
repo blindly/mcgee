@@ -13,22 +13,22 @@
      }, {
        "title": "Annie and The Senator",
        "subtitle": "A Story of Vigilante Justice",
-       "image": "/images/pic02.jpg",
+       "image": "/assets/books/as/tile-en.png",
        "link": "/site/en/content/books/annie-and-the-senator"
      }, {
        "title": "The TSA vs The People",
        "subtitle": "A Short Story of Vengeance",
-       "image": "/images/pic03.jpg",
+       "image": "/assets/books/tsa/tile-en.png",
        "link": "/site/en/content/books/tsa-vs-the-people"
      }, {
        "title": "The Iraqi Girl",
        "subtitle": "Trilogy Book 1",
-       "image": "/images/pic04.jpg",
+       "image": "/assets/books/ig1/tile-en.png",
        "link": "/site/en/content/books/the-iraqi-girl"
      }, {
        "title": "Just Following Orders",
        "subtitle": "Iraqi Girl Trilogy Book 2",
-       "image": "/images/pic05.jpg",
+       "image": "/assets/books/ig2/tile-en.png",
        "link": "/site/en/content/books/just-following-orders"
      }]
    }
