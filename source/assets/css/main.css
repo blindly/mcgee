@@ -2862,6 +2862,7 @@
 				width: 60%;
 			}
 
+			/* TESTING
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
 			}
@@ -2885,6 +2886,7 @@
 			.tiles article:nth-child(6n):before {
 				background-color: #87c5a4;
 			}
+			*/
 
 		@media screen and (max-width: 1280px) {
 
