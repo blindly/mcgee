@@ -33,6 +33,9 @@
      }]
    },
    "about": {
-     "title": "Meet the Novelist | Robert W. McGee - Official"
+     "title": "Meet the Novelist | Robert W. McGee - Official",
+     "featured": "https://robertwmcgee.com/assets/images/mcgee.jpg",
+     "featuredWidth": "434",
+     "featuredHeight": "515"
    }
  }
