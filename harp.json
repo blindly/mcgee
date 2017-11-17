@@ -1,0 +1,18 @@
+{
+  "domains": [""],
+  "globals": {
+    "site_title": "Robert W McGee - Official",
+    "site_url": "http://www.robertwmcgee.com",
+    "sitemap": {
+      "enabled": false,
+      "changefreq": "weekly"
+    },
+    "title": "Robert W. McGee - Official",
+    "description": "Robert W. McGee is an Amazon Best-Selling Novelist who writes political fiction from an individualist perspective. His latest works include Justifiable Homicide - A Political Thriller, Annie and the Senator, The TSA vs the People, and the Iraqi Girl Trilogy.",
+    "keywords": "Robert W McGee, Iraqi Girl, The TSA vs The People, Justifiable Homicide, Author, Novelist",
+    "featuredUrl": "https://www.robertwmcgee.com/",
+    "featured": "https://www.robertwmcgee.com/images/RobertWMcGee.jpg",
+    "featuredWidth": "250",
+    "featuredHeight": "250"
+  }
+}
