@@ -4,5 +4,8 @@
   },
   "404": {
     "layout": "_shared/layouts/_layout.ejs"
+  },
+  "about": {
+    "layout": "_shared/layouts/_layout.ejs"
   }
 }
