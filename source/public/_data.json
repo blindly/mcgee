@@ -1,5 +1,8 @@
 {
   "index": {
     "layout": "_shared/layouts/_layout.ejs"
+  },
+  "404": {
+    "layout": "_shared/layouts/_layout.ejs"
   }
 }
