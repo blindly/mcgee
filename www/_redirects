@@ -1,0 +1,6 @@
+# Redirects from what the browser requests to what we serve
+/buy/justifiable-homicide           http://a-fwd.com/asin=B00OJMWLK2
+/buy/annie-and-the-senator          http://a-fwd.com/asin=B00TKOTORC
+/buy/iraqi-girl                     http://a-fwd.com/asin=B0188LDU5O
+/buy/iraqi-girl-2                   http://a-fwd.com/asin=B0188M7EGY
+/buy/tsa-vs-people                  http://a-fwd.com/asin=B00OJN20YI
