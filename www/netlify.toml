@@ -1,0 +1,12 @@
+[build]
+  base = "source"
+  public = "public"
+  command = "harp compile source public"
+
+redirects = [
+  {from = "/buy/justifiable-homicide", to = "http://a-fwd.com/asin=B00OJMWLK2"},
+  {from = "/buy/annie-and-the-senator", to = "http://a-fwd.com/asin=B00TKOTORC"},
+  {from = "/buy/iraqi-girl", to = "http://a-fwd.com/asin=B0188LDU5O"},
+  {from = "/buy/iraqi-girl-2", to = "http://a-fwd.com/asin=B0188M7EGY"},
+  {from = "/buy/tsa-vs-people", to = "http://a-fwd.com/asin=B00OJN20YI"}
+  ]
