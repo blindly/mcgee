@@ -7,5 +7,8 @@
   },
   "about": {
     "layout": "_shared/layouts/_layout.ejs"
+  },
+  "privacy": {
+    "layout": "_shared/layouts/_layout.ejs"
   }
 }
