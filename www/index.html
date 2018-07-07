@@ -5,6 +5,7 @@
   <meta charset="utf-8" />    
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/custom.css" />
   
   <!-- Icon -->
   <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
@@ -60,7 +61,18 @@
   <!-- Wrapper -->
   <div id="wrapper" class="divided">
 
-    <section class="spotlight style1 orient-right content-align-left image-position-center" id="first">
+    <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Facebook Share -->
+<div class="fb-like" data-href="https://www.robertwmcgee.com/" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div><section class="spotlight style1 orient-right content-align-left image-position-center" id="first">
   <div class="content">
     <h1>Robert W. McGee</h1>
     <p>After earning his 13th doctorate, Robert W. McGee sets his sights on political fiction.</p>
